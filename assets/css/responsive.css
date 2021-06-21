@@ -1,0 +1,206 @@
+/**************************************************
+********************** 1199.98 *******************
+*************************************************/
+@media screen and /*(min-width: 768px) and*/ (max-width: 1199.98px){
+  /* Client Feedback */
+  .inputs {
+    margin: 0;
+  }
+}
+
+/**************************************************
+******************* 768 > 991.98 *****************
+*************************************************/
+@media screen and /*(min-width: 768px) and*/ (max-width: 991.98px){
+  /* Header */
+  .main-menu{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .home-content p {
+    width: auto;
+  }
+
+  /* About Section */
+  .act-clients, .client-feedback, .project-done {
+    width: 140px;
+    height: 140px;
+  }
+  .act-clients {
+    left: 20px;
+  }
+  .project-done {
+    top: 110px;
+    left: 90px;
+  }
+
+  /* Projects */
+  .project-menu {
+    text-align: center;
+  }
+
+  /* Client Feedback */
+  .quote {
+    margin-bottom: 30px;
+  }
+  .inputs {
+    margin: 30px 0 0 0;
+    padding: 0 30px;
+  }
+}
+
+
+/**************************************************
+******************* 576 > 767.98 *****************
+*************************************************/
+@media screen and /*(min-width: 576px) and*/ (max-width: 767.98px){
+
+  /* Header */
+  .home-content p {
+    width: auto;
+  }
+
+  /* About Section */
+  .about {
+    padding: 50px 0;
+  }
+  .counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .act-clients, .client-feedback, .project-done{
+    position: sticky;
+  }
+  .client-feedback {
+    left: 0;
+  }
+  .project-done {
+    top: 0;
+    left: 0;
+  }
+
+  /* Services */
+  .service {
+    padding: 60px 0px 60px;
+  }
+
+  /* Skills */
+  /* Projects */
+  .project-menu {
+    text-align: center;
+  }
+  .project-menu li{
+    margin: 10px;
+  }
+  /* Client Feedback */
+  /* Latest News */
+  /* Clients */
+  /* Footer */
+  .ql{
+    margin-left: 0;
+  }
+  .ql h6,
+  .am h6,
+  .footer-quick-menu,
+  .footer-about-menu{
+    text-align: center;
+  }
+  .am {
+    margin-left: 0;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .payment {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+/**************************************************
+******************* 320 > 575.98 *****************
+*************************************************/
+@media screen and (min-width: 320px) and (max-width: 575.98px){
+  /* Header */
+  .hero-content {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .home-content .btns{
+    display: block !important;
+  }
+  .home-content .btns a{
+    display: block;
+    margin: 0 0 10px 0;
+  }
+  .home-content .btns a:not(:last-child) {
+    margin-right: 0;
+  }
+
+  /* About Section */
+  .counter {
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .act-clients, .client-feedback, .project-done{
+    margin-bottom: 20px;
+  }
+  /* Services */
+  /* Skills */
+  /* Projects */
+  /* Client Feedback */
+  .inputs {
+    padding: 0;
+  }
+  .quote-item .author {
+    flex-direction: column;
+  }
+  .cf-bg {
+    display: none;
+  }
+  .cf-form{
+    margin-top: 0 !important;
+  }
+  .feedback-form input[type=text]{
+    margin-bottom: 20px;
+  }
+  /* Latest News */
+  /* Clients */
+  .clients {
+    padding: 40px 0px;
+  }
+  .client-items {
+    flex-direction: column;
+  }
+  .client-item{
+    margin-bottom: 30px;
+  }
+
+  /* Footer */
+  .fp {
+    padding: 80px 0px 0px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+  .payment{
+    flex-direction: column;
+  }
+  .payment span{
+    margin-bottom: 15px;
+  }
+
+}
+
+
+/* Header */
+/* About Section */
+/* Services */
+/* Skills */
+/* Projects */
+/* Client Feedback */
+/* Latest News */
+/* Clients */
+/* Footer */
